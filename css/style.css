@@ -104,7 +104,7 @@ Section Text:       15px/1.7 "Open Sans", arial, sans-serif;
 
 .mrg { margin: 50px; padding: 50px;}
 .brighter {font-weight: 20px;}
-
+.underlinered { text-decoration: underline red;}
 
 .FirstP{
 	width: 100%;
@@ -140,6 +140,16 @@ Section Text:       15px/1.7 "Open Sans", arial, sans-serif;
 
 }
 
+.bgw3{
+
+	border-color: transparent;
+	border-left-color: red;
+	border-right-width: thick;
+	border-style: solid;
+	padding: 20px;
+	background-color: white;
+
+}
 
 /* HASSAN CUSTOM END */
 
