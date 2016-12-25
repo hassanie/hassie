@@ -151,6 +151,17 @@ Section Text:       15px/1.7 "Open Sans", arial, sans-serif;
 
 }
 
+
+.bgw4{
+
+	border-color: transparent;
+	border-left-color: red;
+	border-right-width: thick;
+	border-style: solid;
+	background-color: white;
+
+}
+
 /* HASSAN CUSTOM END */
 
 
@@ -2422,6 +2433,26 @@ a.logo:hover{
 
 	padding: 140px 0;
 }
+.ssection{
+	width: 100%;
+	display: block;
+	position: relative;
+    overflow: hidden;
+    background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center center;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+	padding: 70px 0;
+}
 .small-section{
 	padding: 70px 0;
 }
@@ -2729,7 +2760,10 @@ a.logo:hover{
 .bg-cyan{ background-color: #43a5de !important; }
 .bg-purple{ background-color: #375acc !important; }
 .bg-red{ background-color: #e13939 !important; }
-
+.bgss0 {
+		background-color: #e13939;
+		opacity: .50;
+ }
 .section-title {
     margin-bottom: 15px;
     font-size: 18px;
