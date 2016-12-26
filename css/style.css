@@ -1557,7 +1557,7 @@ a.logo:hover{
 	position: relative;
 	top: 0;
 	left: 0;
-	text-align: left;
+	text-align: center;
 	background: rgba(255,255,255, .97);
 
 	-webkit-box-shadow: 0 1px 0 rgba(0,0,0,.05);
@@ -2760,10 +2760,16 @@ a.logo:hover{
 .bg-cyan{ background-color: #43a5de !important; }
 .bg-purple{ background-color: #375acc !important; }
 .bg-red{ background-color: #e13939 !important; }
+.bg-white{ background-color: #ffffff !important; }
 .bgss0 {
 		background-color: #e13939;
 		opacity: .50;
  }
+.padds {
+		padding: 20px;
+
+ }
+
 .section-title {
     margin-bottom: 15px;
     font-size: 18px;
